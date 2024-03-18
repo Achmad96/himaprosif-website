@@ -4,7 +4,7 @@ export default function Contact() {
             <h2 className="text-center text-xl font-extrabold">
                 Say something
             </h2>
-            <div>
+            <div className="w-full">
                 <p>Username</p>
                 <input
                     type="text"

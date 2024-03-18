@@ -15,7 +15,8 @@ export default function Location() {
                     </p>
                     <Link
                         href={"https://maps.app.goo.gl/nD1LnKPAeNfD1eZS6"}
-                        className="flex items-center font-bold underline"
+                        className="flex items-center font-extrabold underline"
+                        target="_blank"
                     >
                         SEE ON MAP
                         <FiArrowUpRight />

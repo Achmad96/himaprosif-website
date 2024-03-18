@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Estungkara from "../../../../public/assets/estungkara.png";
+import HeroContent from "@/components/animations/hero-content.animation";
 
 export default function Hero({ dict }: any) {
     const { header, body }: any = dict;
@@ -28,28 +29,11 @@ export default function Hero({ dict }: any) {
                     </div>
                     <div className="flex font-extrabold text-white">
                         <span className="text-7xl">#</span>
-                        <p className="w-10 text-3xl">Tumbuh Berdaya</p>
+                        <p className="w-10 text-3xl">{header.tag}</p>
                     </div>
                 </div>
             </div>
-            <div className="flex w-[30%] flex-col gap-20 max-sm:w-[85%]">
-                <div>
-                    <h1 className="text-5xl font-extrabold text-primary">
-                        {header.vision}
-                    </h1>
-                    <p className="py-6">{body.vision}</p>
-                </div>
-                <div>
-                    <h1 className="text-5xl font-extrabold text-primary">
-                        {header.mission}
-                    </h1>
-                    <ul className="ml-5 py-6">
-                        {body.missions.map((mission: string) => (
-                            <li key={mission}>{mission}</li>
-                        ))}
-                    </ul>
-                </div>
-            </div>
+            <HeroContent header={header} body={body} />
         </section>
     );
 }
