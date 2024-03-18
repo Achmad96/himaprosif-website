@@ -1,5 +1,6 @@
 import Image from "next/image";
-import LanguagesController from "./controller/languages.controller";
+import LanguagesController from "../controller/languages.controller";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -8,20 +9,23 @@ export default function Navbar() {
                 <div className="relative h-10 w-10">
                     <Image src={"/assets/logo.png"} alt="logo" fill={true} />
                 </div>
-                <a className="btn btn-ghost text-xl font-bold text-primary">
+                <Link
+                    href="/#hero"
+                    className="btn btn-ghost text-xl font-bold text-primary"
+                >
                     Estungkara
-                </a>
+                </Link>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal gap-5 text-base">
                     <li>
-                        <a>Home</a>
+                        <Link href={"#"}>Home</Link>
                     </li>
                     <li>
-                        <a>About us</a>
+                        <Link href="/#hero">About us</Link>
                     </li>
                     <li>
-                        <a>Works</a>
+                        <Link href={"#"}>Works</Link>
                     </li>
                     <li>
                         <LanguagesController />

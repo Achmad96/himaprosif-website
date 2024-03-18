@@ -1,11 +1,11 @@
-import Departments from "@/components/Departments";
-import Hero from "@/components/Hero";
+import Hero from "@/components/layouts/wrapper/hero.wrapper";
+import Departments from "@/components/layouts/wrapper/departments.wrapper";
 
 export default function Home() {
     return (
-        <main>
+        <>
             <Hero />
             <Departments />
-        </main>
+        </>
     );
 }

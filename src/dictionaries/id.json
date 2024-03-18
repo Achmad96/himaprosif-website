@@ -1,0 +1,24 @@
+{
+    "hero": {
+        "header": {
+            "cabinet": "KABINET ESTUNGKARA 2024",
+            "vision": "Visi",
+            "mission": "Misi"
+        },
+        "body": {
+            "vision": "Menjadikan HIMAPROSIF sebagai pilar utama mahasiswa di Program Studi Sistem Informasi yang bertujuan untuk menciptakan organisasi yang aktif, kreatif dan inovatif dalam rangka menciptakan generasi yang profesional, religius dan berkualitas untuk berkontribusi kepada masyarakat.",
+            "missions": [
+                "Membangun hubungan secara internal dan eksternal untuk menciptakan lingkungan sosial yang baik dan rasa kekeluargaan.",
+                "Meningkatkan semangat silaturahmi atas dasar kekeluargaan dan religius Membangun kreativitas dan inovasi yang secara aktif mencari solusi atas kebutuhan Program Studi Sistem Informasi.",
+                "Membangun kreativitas dan inovasi yang secara aktif mencari solusi atas kebutuhan Program Studi Sistem Informasi.",
+                "Menciptakan ruang yang nyaman untuk berekspresi bagi para siswa dengan prinsip keterbukaan dan saling toleransi."
+            ]
+        }
+    },
+    "departments": {
+        "header": {
+            "departments": "Departemen"
+        },
+        "body": {}
+    }
+}

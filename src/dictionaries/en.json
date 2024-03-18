@@ -1,0 +1,24 @@
+{
+    "hero": {
+        "header": {
+            "cabinet": "ESTUNGKARA 2024 CABINET",
+            "vision": "Vision",
+            "mission": "Mission"
+        },
+        "body": {
+            "vision": "Making HIMAPROSIF the main pillar of students in the Information Systems Study Program which aims to create an active, creative and innovative organization in order to create a generation that is professional, religious and qualified to contribute to society.",
+            "missions": [
+                "Building relationships internally and externally to create a good social environment and a sense of family.",
+                "Increasing the spirit of gathering on familial and religious grounds Building creativity and innovation that actively seeks solutions to the needs of the Information Systems Study Program.",
+                "Building creativity and innovation that actively seeks solutions to the needs of the Information Systems Study Program.",
+                "Creating a comfortable space for expression for students with the principles of openness and mutual tolerance."
+            ]
+        }
+    },
+    "departments": {
+        "header": {
+            "departments": "Departments"
+        },
+        "body": {}
+    }
+}

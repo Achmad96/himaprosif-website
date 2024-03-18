@@ -3,11 +3,12 @@ import React from "react";
 import { Noto_Sans } from "next/font/google";
 
 const noto_sans = Noto_Sans({ weight: "800", subsets: ["latin"] });
-export default function Cabinets() {
+export default function Departments({ dict }: any) {
+    const { header }: any = dict;
     return (
         <section className="flex min-h-screen flex-col items-center justify-center gap-10">
             <h1 className="text-5xl font-extrabold text-primary">
-                DEPARTMENTS
+                {header.departments}
             </h1>
             <div>
                 <ul
