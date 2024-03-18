@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import Estungkara from "../../../../public/assets/estungkara.png";
+
 export default function Hero({ dict }: any) {
     const { header, body }: any = dict;
     return (
@@ -17,7 +19,7 @@ export default function Hero({ dict }: any) {
                 <div className="flex items-end">
                     <div className="relative h-[25rem] w-[19.5rem]">
                         <Image
-                            src="/assets/estungkara.png"
+                            src={Estungkara}
                             alt="Estungkara"
                             className="shdw-icon"
                             fill={true}

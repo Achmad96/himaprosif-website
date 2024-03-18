@@ -1,5 +1,15 @@
 import { Noto_Sans } from "next/font/google";
 
+import audit from "../../../../public/assets/departments/audit.png";
+import bpi from "../../../../public/assets/departments/bpi.png";
+import msdm from "../../../../public/assets/departments/msdm.png";
+import pa from "../../../../public/assets/departments/pa.png";
+import pb from "../../../../public/assets/departments/pb.png";
+import kki from "../../../../public/assets/departments/kki.png";
+import humas from "../../../../public/assets/departments/humas.png";
+import ti from "../../../../public/assets/departments/ti.png";
+import pmdb from "../../../../public/assets/departments/pmdb.png";
+
 import Image from "next/image";
 import React from "react";
 
@@ -17,100 +27,55 @@ export default function Departments({ dict }: any) {
                 >
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/audit.png"}
-                                alt="audit"
-                                fill
-                                priority
-                            />
+                            <Image src={audit} alt="audit" fill priority />
                         </div>
                         <p>AUDITOR</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/bpi.png"}
-                                alt="BPI"
-                                fill
-                                priority
-                            />
+                            <Image src={bpi} alt="BPI" fill priority />
                         </div>
                         <p>BPI</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/humas.png"}
-                                alt="humas"
-                                fill
-                                priority
-                            />
+                            <Image src={humas} alt="humas" fill priority />
                         </div>
                         <p>HUMAS</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/msdm.png"}
-                                alt="msdm"
-                                fill
-                                priority
-                            />
+                            <Image src={msdm} alt="msdm" fill priority />
                         </div>
                         <p>MSDM</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/kki.png"}
-                                alt="kki"
-                                fill
-                                priority
-                            />
+                            <Image src={kki} alt="kki" fill priority />
                         </div>
                         <p>KKI</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/pmdb.png"}
-                                alt="pmdb"
-                                fill
-                                priority
-                            />
+                            <Image src={pmdb} alt="pmdb" fill priority />
                         </div>
                         <p>PMDB</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/pa.png"}
-                                alt="pa"
-                                fill
-                                priority
-                            />
+                            <Image src={pa} alt="pa" fill priority />
                         </div>
                         <p>PA</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/ti.png"}
-                                alt="ti"
-                                fill
-                                priority
-                            />
+                            <Image src={ti} alt="ti" fill priority />
                         </div>
                         <p>TI</p>
                     </li>
                     <li className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary">
                         <div className="relative h-20 w-20">
-                            <Image
-                                src={"/assets/departments/pb.png"}
-                                alt="pb"
-                                fill
-                                priority
-                            />
+                            <Image src={pb} alt="pb" fill priority />
                         </div>
                         <p>PB</p>
                     </li>
