@@ -21,6 +21,7 @@ export default function Hero({ dict }: any) {
                             alt="Estungkara"
                             className="shdw-icon"
                             fill={true}
+                            priority
                         ></Image>
                     </div>
                     <div className="flex font-extrabold text-white">

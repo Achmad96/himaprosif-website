@@ -1,6 +1,7 @@
+import { Noto_Sans } from "next/font/google";
+
 import Image from "next/image";
 import React from "react";
-import { Noto_Sans } from "next/font/google";
 
 const noto_sans = Noto_Sans({ weight: "800", subsets: ["latin"] });
 export default function Departments({ dict }: any) {
@@ -20,6 +21,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/audit.png"}
                                 alt="audit"
                                 fill
+                                priority
                             />
                         </div>
                         <p>AUDITOR</p>
@@ -30,6 +32,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/bpi.png"}
                                 alt="BPI"
                                 fill
+                                priority
                             />
                         </div>
                         <p>BPI</p>
@@ -40,6 +43,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/humas.png"}
                                 alt="humas"
                                 fill
+                                priority
                             />
                         </div>
                         <p>HUMAS</p>
@@ -50,6 +54,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/msdm.png"}
                                 alt="msdm"
                                 fill
+                                priority
                             />
                         </div>
                         <p>MSDM</p>
@@ -60,6 +65,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/kki.png"}
                                 alt="kki"
                                 fill
+                                priority
                             />
                         </div>
                         <p>KKI</p>
@@ -70,6 +76,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/pmdb.png"}
                                 alt="pmdb"
                                 fill
+                                priority
                             />
                         </div>
                         <p>PMDB</p>
@@ -80,6 +87,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/pa.png"}
                                 alt="pa"
                                 fill
+                                priority
                             />
                         </div>
                         <p>PA</p>
@@ -90,6 +98,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/ti.png"}
                                 alt="ti"
                                 fill
+                                priority
                             />
                         </div>
                         <p>TI</p>
@@ -100,6 +109,7 @@ export default function Departments({ dict }: any) {
                                 src={"/assets/departments/pb.png"}
                                 alt="pb"
                                 fill
+                                priority
                             />
                         </div>
                         <p>PB</p>
