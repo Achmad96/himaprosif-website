@@ -2,12 +2,14 @@ import Image from "next/image";
 import LanguagesController from "../controller/languages.controller";
 import Link from "next/link";
 
+import Logo from "../../../public/assets/logo.png";
+
 export default function Navbar() {
     return (
         <div className="navbar bg-base-100 px-20">
             <div className="flex-1">
                 <div className="relative h-10 w-10">
-                    <Image src={"/assets/logo.png"} alt="logo" fill={true} />
+                    <Image src={Logo} alt="logo" fill={true} />
                 </div>
                 <Link
                     href="/#hero"
