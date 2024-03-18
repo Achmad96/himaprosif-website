@@ -12,7 +12,7 @@ export default function LanguagesController() {
     return (
         <details ref={ref}>
             <summary>{languages}</summary>
-            <ul className="p-2 bg-base-100 rounded-t-none">
+            <ul className="rounded-t-none bg-base-100 p-2">
                 <li>
                     <a onClick={handleClick}>EN</a>
                 </li>
