@@ -25,7 +25,7 @@ export default function Departments({ dict }: any) {
             </h1>
             <div className="h-auto w-full ">
                 <ul
-                    className={`${noto_sans.className} grid h-screen w-full grid-cols-3 place-items-center text-2xl [&>li]:list-none`}
+                    className={`${noto_sans.className} grid h-screen w-full grid-cols-3 place-items-center gap-y-7 text-2xl [&>li]:list-none`}
                 >
                     <motion.li
                         whileHover={{
