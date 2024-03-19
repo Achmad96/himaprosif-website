@@ -26,8 +26,6 @@ export default function Root({
     children: ReactElement;
     params: Params;
 }) {
-    console.log(params);
-
     return (
         <html lang={params.lang}>
             <body className={poppins.className}>

@@ -23,16 +23,16 @@ export default function Departments({ dict }: any) {
             <h1 className="text-5xl font-extrabold text-primary">
                 {header.departments}
             </h1>
-            <div>
+            <div className="w-full">
                 <ul
-                    className={`${noto_sans.className} grid grid-cols-3 gap-10 [&>li>p]:text-2xl [&>li]:list-none`}
+                    className={`${noto_sans.className}  grid w-full grid-cols-3 place-items-center gap-10 [&>li>p]:text-2xl [&>li]:list-none`}
                 >
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={audit} alt="audit" priority />
@@ -42,9 +42,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={bpi} alt="BPI" fill priority />
@@ -54,9 +54,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={humas} alt="humas" fill priority />
@@ -66,9 +66,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={msdm} alt="msdm" fill priority />
@@ -78,9 +78,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={kki} alt="kki" fill priority />
@@ -90,9 +90,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={pmdb} alt="pmdb" fill priority />
@@ -102,9 +102,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={pa} alt="pa" fill priority />
@@ -114,9 +114,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={ti} alt="ti" fill priority />
@@ -126,9 +126,9 @@ export default function Departments({ dict }: any) {
                     <motion.li
                         whileHover={{
                             scale: 1.1,
-                            boxShadow: "5px 5px 5px #044d28",
+                            boxShadow: "0px 0px 75px #044d28",
                         }}
-                        className="flex h-52 w-96 flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
+                        className="flex h-52 w-[80%] flex-col items-center justify-center gap-5 rounded-3xl border border-primary"
                     >
                         <div className="relative h-20 w-20">
                             <Image src={pb} alt="pb" fill priority />

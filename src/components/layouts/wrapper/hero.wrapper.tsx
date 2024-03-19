@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import { motion } from "framer-motion";
 
 import Estungkara from "../../../../public/assets/estungkara.png";
 import HeroContent from "@/components/animations/hero-content.animation";
