@@ -19,7 +19,7 @@ const noto_sans = Noto_Sans({ weight: "800", subsets: ["latin"] });
 export default function Departments({ dict }: any) {
     const { header }: any = dict;
     return (
-        <section className="flex min-h-screen flex-col items-center justify-center">
+        <section className="flex min-h-screen flex-col items-center justify-center gap-5">
             <h1 className="text-5xl font-extrabold text-primary">
                 {header.departments}
             </h1>
