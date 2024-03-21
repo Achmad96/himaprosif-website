@@ -2,15 +2,15 @@
 import { Noto_Sans } from "next/font/google";
 import { motion } from "framer-motion";
 
-import audit from "../../../../public/assets/departments/audit.png";
-import bpi from "../../../../public/assets/departments/bpi.png";
-import humas from "../../../../public/assets/departments/humas.png";
-import msdm from "../../../../public/assets/departments/msdm.png";
-import kki from "../../../../public/assets/departments/kki.png";
-import pmdb from "../../../../public/assets/departments/pmdb.png";
-import pa from "../../../../public/assets/departments/pa.png";
-import ti from "../../../../public/assets/departments/ti.png";
-import pb from "../../../../public/assets/departments/pb.png";
+import audit from "$/assets/departments/audit.png";
+import bpi from "$/assets/departments/bpi.png";
+import humas from "$/assets/departments/humas.png";
+import msdm from "$/assets/departments/msdm.png";
+import kki from "$/assets/departments/kki.png";
+import pmdb from "$/assets/departments/pmdb.png";
+import pa from "$/assets/departments/pa.png";
+import ti from "$/assets/departments/ti.png";
+import pb from "$/assets/departments/pb.png";
 
 import Image from "next/image";
 import React from "react";
@@ -29,7 +29,7 @@ export default function Departments({ dict }: any) {
                 >
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -41,7 +41,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -53,7 +53,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -65,7 +65,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -77,7 +77,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -89,7 +89,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -101,7 +101,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -113,7 +113,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
@@ -125,7 +125,7 @@ export default function Departments({ dict }: any) {
                     </motion.li>
                     <motion.li
                         whileHover={{
-                            scale: 1.1,
+                            scale: 1.05,
                             boxShadow: "0px 0px 75px #044d28",
                         }}
                         className="flex h-52 w-[80%] flex-col items-center justify-center gap-x-3 gap-y-3 rounded-3xl border border-primary"
